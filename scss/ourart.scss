@@ -1,0 +1,87 @@
+..our_work{
+    background-color:var(--secondary-color);
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.div_testimonials{
+    display: flex;
+    flex-flow: row ;
+    margin: 5rem 8rem; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.div_testimonials__div_person{
+    
+    width: 40rem;
+    height: 40rem;
+    
+}
+
+
+.div_testimonials__div_person--person_1-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
+.div_testimonials__div_person--person_1-2 img{
+    width: 20rem;
+    height: 20rem;
+    margin: 3rem 0;
+}
+
+
+
+.div_testimonials__div_person--person_2-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div_testimonials__div_person--person_2-2 img{
+    width: 20rem;
+    height: 20rem;
+    margin: 3em 0;
+
+}
+
+.div__div_contacto{
+    display:flex;
+    justify-content: space-evenly;
+    background-color: var(--secondary-color);
+    padding: 5rem 0;
+    flex-wrap: wrap;
+}
+
+
+.div__div_contacto__div_contacto_button--contactbutton{
+
+    padding: 1.5rem 5rem;
+    background-color:var(--main-color);
+    color: white;
+    font-family: 'Castoro', serif;
+    border: none;
+    transition: 0.2s;
+
+}
+
+.div__div_contacto{
+    color: white;
+}
+
+.contactbutton{
+    text-decoration: none;
+    color: white !important;
+}
+
+.contactbutton:hover{
+    color: white;
+}
+
+.cuadro_contacto button:hover{
+
+    padding: 1.5rem 6rem;
+
+}

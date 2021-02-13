@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+
+    font-size:62.5%;
+}
+
+:root {
+
+    --main-color:#192537;
+    --secondary-color:#A19C10;
+
+}
+
+/*Estos son los estilos del header y footer*/
+
+header{
+    height: 8rem;
+    background-color: var(--main-color);
+  
+    
+}
+.menu{
+    height: 7rem;
+    float: right;
+    padding-right: 3%;  
+    display: flex;
+}
+
+.menu_ul{
+    display: flex;
+    
+}
+
+.menu_ul-li{
+    
+    padding: 0.5rem;
+    height: 7rem;
+    display: inline;
+    font-size: 1.6rem;
+    padding-top: 3.1rem;
+}
+
+.div_logo{
+    display: inline;
+    float: left;
+    height: 7rem;
+}
+.menu_ul-li a{
+    
+    color: white;
+    text-decoration: none;
+    font-family: 'Castoro', serif;
+    
+}
+
+.menu_ul-li a:hover{
+    
+    color: var(--secondary-color);
+    
+    
+}
+
+.dropdown{
+    display: none;
+}
+
+footer{
+    background-color: var(--secondary-color);
+    padding: 0.5rem 0 0.5rem 2rem;
+    color: white;
+    text-align: center;
+}
+
+.index_6-div{
+    display: inline-block;
+    padding: 6rem;
+    padding-top: 3rem;
+}
+
+.index_6{
+    background-color: var(--main-color);
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.index_6-div a{
+    color: white;
+    font-family: 'Castoro', serif;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+.index_6-div a:hover{
+    color:  var(--secondary-color);
+}
+
+.index_6-div h4{
+    font-family: 'Castoro', serif;
+    color: var(--secondary-color);
+    font-size: 2rem;
+}
+
+.index_6-div ul{
+    padding: 1rem 0;
+}
+
+
+/*Este aplica en todos*/
+h1, h3{
+    font-family: 'Playfair Display SC', serif;
+    color: var(--secondary-color);
+    letter-spacing: 1rem;
+    font-size: 3rem;
+    
+}
+
+h1{
+    animation-duration: 2s;
+    animation-name: aparecer;
+}
+
+ h2,h4{
+    font-family: 'Playfair Display SC', serif;
+    color: var(--main-color);
+    font-size: 2rem;
+    
+ }
+
+ p,li{
+    font-family: 'Gothic A1', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-transform: none;
+    font-size: 1.6rem;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+p{
+    animation-duration: 2s;
+    animation-name: aparecer;
+}
+
+label{
+    font-size: 1.6rem;
+    font-family: 'Gothic A1', sans-serif;
+    
+}
+
+/**/
+
+
+/*Aquí empieza Home*/
+@import "home";
+
+/*Acá es el We*/
+@import "we";
+
+/*Acá es el Our Art*/
+
+@import "ourart";
+
+/*Acá es el Whole Gallery*/
+@import "whollegallery";
+
+/*Acá es el Contact Us*/
+@import "contact";
+
+/*Acá es el responsive*/
+
+@import "responsive";
+
+
+
+
+
+
+
+
+

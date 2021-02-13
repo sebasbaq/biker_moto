@@ -1,0 +1,105 @@
+.we_1{
+    background: url(https://images.unsplash.com/photo-1526304760382-3591d3840148?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80) no-repeat center center;  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 60rem;
+    text-align: center;   
+}
+
+.we_1 h2{
+    padding-top: 5rem;
+}
+
+
+
+.we_1 div{
+    background-color: var(--main-color);
+    opacity: 0.8;
+    width: 50vw;
+    height: fit-content;
+    margin: auto;
+    margin-top: 5rem;
+    padding: 3rem;
+
+}
+
+.we_1 p{
+   
+    color: white;
+    font-size: 2rem;
+    
+}
+
+.we_title{
+
+    background: linear-gradient(to bottom, #7c848c, #192537);
+    text-align: center;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.we_title h2{
+    color: white;
+    
+}
+
+.person_1 {
+    display: flex;
+    padding: 5rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.person_1 div{
+
+    width: 40rem;
+    height: 40rem;       
+}
+
+.person_1 img{
+    width: $img_size*4;
+    height: $img_size*4;
+    
+}
+
+.person_1 h3{
+    padding-top: 5rem;
+}
+.person_1 p{
+    padding: 5rem;
+    font-size: 2rem;
+    
+}
+
+.person_2{
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 5rem;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.person_2 div{
+
+    width: 40rem;
+    height: 40rem;       
+}
+
+.person_2 img{
+    width: $img_size*4;
+    height: $img_size*4;
+}
+
+.person_2 h3{
+    padding-top: 5rem;
+}
+.person_2 p{
+    padding: 5rem;
+    font-size: 2rem;
+    
+}

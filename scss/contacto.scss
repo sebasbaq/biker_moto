@@ -1,0 +1,99 @@
+$p_color:#192537;
+$padding_title:2rem;
+$font_size:4rem;
+
+.contact_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-top: 5rem;
+    height: fit-content;
+}
+
+.contact_form{
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 4rem;
+   border-radius: 3%;
+
+}
+
+.button{
+    display: flex;
+    width: 10rem;
+    align-self: center;
+    justify-content: center;
+    margin: 1rem 0;
+   
+    
+}
+
+.contact_details{
+    width: 40rem;
+    height: 40rem;
+    margin-bottom: 5rem;
+    
+}
+
+.contact_details form{
+    background-color: var(--secondary-color);
+}
+
+.contact_details form label{
+    color: white;
+}
+
+.contact_details form input, select{
+    background-color: transparent;
+    border: none;
+    border-bottom: var(--main-color) solid 1px;
+    color: white;
+}
+
+.contact_details form textarea{
+    resize: none;
+}
+
+.contact_details form [type=reset]{
+    background-color: var(--main-color);
+    color: white;
+    padding: 0.5rem 2rem;
+}
+
+.contact_details form [type=submit]{
+    background-color: var(--main-color);
+    color: white;
+    padding: 0.5rem 2rem;
+}
+
+.contact_details form input[type=text]:focus,[type=email]:focus,[type=number]:focus,select:focus{
+    background:linear-gradient(to bottom, transparent,#192537);
+    outline: none;
+}
+
+.contact_details2{
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+}
+
+.contact_details2 p{
+    color: $p_color;
+    font-size: $font_size*0.9;
+}
+
+.contact_details2 h2{
+    padding-bottom:$padding_title*3;
+}
+
+.sectionmap__div_sectionmap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectionmap__div_sectionmap iframe{
+    width: 80%;
+    padding-bottom: 5rem;
+}

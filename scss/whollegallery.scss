@@ -1,0 +1,36 @@
+.video_section{
+    display: flex;
+    justify-content: center;
+}
+
+iframe{
+    width: 100vw;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.souvenirs{
+    text-align: center;
+    background-color:var(--secondary-color);
+    padding: 5rem 0;
+    
+}
+
+table{
+    width: 100vw;
+}
+
+td, th{
+    padding: 3rem;
+    font-size: 2rem;
+}
+
+.img{
+    width: 8rem;
+    height: 8rem;
+    transform: scale(1.6,1.6);
+}

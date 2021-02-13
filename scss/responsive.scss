@@ -1,0 +1,315 @@
+$padding_index_5: 4rem;
+$box_color:#192537;
+
+@media(max-width:960px){
+    
+
+    .section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    .section__div--img{
+        display: none;
+    }    
+
+    .section__section__div--section4{
+        position: relative;
+        bottom: 2rem;
+    }
+   
+    .index_5{
+        padding: $padding_index_5/2;
+    }
+
+    .we_1 div{
+        height: 30rem;
+        width: 50rem;
+     }
+
+     .we_1 p{
+        font-size: 1.7rem;
+    }
+    .index_6-div{
+        padding: 3rem;
+
+    }
+
+    .div_testimonials__div_person--person_2-2{
+        margin-top: 3rem;
+    }
+
+    .sectionmap{
+        height: 50rem;
+    }
+
+    .contact_details2{
+        padding-left: 3rem;
+    }
+
+    .sectionmap__div_sectionmap{
+        position: relative;
+        top: 15.5rem;
+    }
+    
+    .sectionmap__div_sectionmap iframe{
+        height: 30rem;
+        padding-bottom: 0;
+    }
+    
+
+}
+
+@media (max-width:700px){
+
+    .menu{
+        display: none;
+    }
+
+    .dropdown{
+        display: flex;
+        justify-content: flex-end;
+        padding-top: 3.1rem;
+        padding-right: 3.1rem;
+    }
+
+
+    .index_1{
+       display: flex;
+       justify-content: center;
+    }
+
+    .form{
+
+        margin-right: 0;
+    }
+
+    .index_3{
+
+        display: grid;
+        grid-template-areas:
+        "text"
+        "images"
+        "aside";
+        grid-template-columns: 1fr;
+        height: 100%;
+
+    }
+
+    .index_3 .descripción{
+        grid-area: text;
+        padding-right: 5rem;
+    }
+
+    #imagenes{
+
+        grid-area: images;
+    }
+
+    .index_3 aside{
+
+        display: none;
+
+    }
+
+    .home_carousel{
+        display: block;
+        margin-top: 5rem;
+    }
+
+    .event_title{
+        color: white;
+    }
+
+    .event{
+        height: 15rem;
+        background-color: wheat;
+        padding: 5rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .eventos-box2{
+        background-color: $box_color;
+        height: 10rem;
+        box-shadow: 0 1px 1px $box_color;
+        border-radius: 5px;
+        padding: 1rem;
+    }
+
+    .eventos-box2 p{
+        color: white;
+    }
+
+    .section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .section__div--img{
+        display: none;
+    }
+   
+    .section__section__div--section4{
+        position: relative;
+        bottom: 4rem;
+    }
+
+    .index_5{
+        padding: $padding_index_5/2;
+    }
+
+    .accordion-body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 5rem;
+    }
+
+    .accordion-body img{
+        margin-top: 3rem;
+     }
+
+    .index_6{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .we_1 div{
+       height: fit-content;
+       width: 30rem;
+    }
+
+    .we_1 p{
+        font-size: 1.3rem;
+    }
+
+    
+    .testimonials{
+
+        height: 100rem;
+    }
+
+    .div_testimonials__div_person{
+        height: 50rem;
+    }
+
+    .contact_details{
+        margin-right: 2rem;
+        margin-left: 2rem;
+        
+    }
+
+    .table_souvenirs{
+        display: none;
+    }
+
+    .table_responsive{
+        display: flex;
+    }
+
+    .table_responsive th{
+        font-family: 'Playfair Display SC', serif;
+        font-size: 3rem;
+        color: #192537;
+        border-bottom: #192537 solid 1px;
+    }
+    
+    .table_responsive td{
+        padding: 3rem;
+        font-size: 2.5rem;
+        font-family: 'Gothic A1', sans-serif;
+        border-bottom: #192537 solid 1px;
+    }
+    
+    .img{
+        width: 8rem;
+        height: 8rem;
+        transform: scale(2,2);
+        margin: 4rem;
+    }
+    
+    .contact_details2{
+        margin-bottom: 5rem;
+    }
+
+    .sectionmap{
+        height: 50rem;
+    }
+
+    .contact_details2{
+        padding-left: 3rem;
+    }
+
+    .sectionmap__div_sectionmap{
+        position: relative;
+        top: 15.5rem;
+    }
+    
+    .sectionmap__div_sectionmap iframe{
+        height: 30rem;
+        padding-bottom: 0;
+    }
+
+}
+
+@media (max-width:370px){
+    .index_3{
+        margin-top: 5rem;
+    }
+
+    .accordion-body p{
+        padding: 2rem;
+    }
+
+    .person_1, .person_2{
+        padding: 0;
+    }
+
+    
+    .person_1 img, .person_2 img{
+        width: $img_size*3;
+        height: $img_size*3;
+        margin-top: 5rem;
+        
+    }
+
+
+    .testimonials{
+
+        height: 100rem;
+    }
+
+   .div_testimonials__div_person--person_2-2{
+       margin-top: 3rem;
+   }
+
+    .div_testimonials__div_person{
+        height: 50rem;
+    }
+   
+
+    .sectionmap{
+        height: 50rem;
+    }
+
+    .contact_details2{
+        padding-left: 3rem;
+    }
+
+    .sectionmap__div_sectionmap{
+        position: relative;
+        top: 15.5rem;
+    }
+    
+    .sectionmap__div_sectionmap iframe{
+        height: 30rem;
+        padding-bottom: 0;
+    }
+    
+}
